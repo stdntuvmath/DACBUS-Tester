@@ -3,3 +3,10 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+.vs/
+obj/
+bin/
+*.suo
+*.db
+*.sqlite
+
