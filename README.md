@@ -48,18 +48,22 @@ Data flow is always with respect to the C# DACBUS Tester software,
 which is simulating the HOST computer of the aircraft simulator system.
 Signals are first initiated by the softwars output to the card. The
 card, then, reacts and sends its signals to the softwares inputs. The
-communication is I2C and utilizes I2C multiplexing ICs. Each card tested
-has two R636 Vector connectors (72-pin). Each connector can accept I/O or analog 
-on specific pins, depending on the card tested. Much consideration was taken
-to account for this circuitry setup. AC and DC filtration was needed to anticipate
-the signals for each input to the software.
+communication is I2C and utilizes I2C multiplexing ICs to make room for the proper
+amount of connections needed. Each card tested has two male connectors that are 
+recieved into the test fixture by two R636 Vector connectors (72-pin). 
+Each connector can accept I/O or analog on specific pins, depending on the card tested. 
+Much consideration was taken to account for this circuitry setup. AC and DC 
+filtration was needed to anticipate the signals for each input to the software.
 
-Below is a schematic of P1 connector board and the fully articulated PCB.
+Below are schematics of both P1 and P2 connector boards and their fully articulated PCBs.
 
 
 [P1 Connector Board](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard.pdf)
 ![P1 Connector Board TOP](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard_TOP.png)
 ![P1 Connector Board BOTTOM](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard_BOTTOM.png)
 
+[P2 Connector Board](DacBuss_Simulator_DBS_Portfolio/P2_ConnectorBoard_Schematic.pdf)
+![P2 Connector Board TOP](DacBuss_Simulator_DBS_Portfolio/P2_ConnectorBoard_TOP.png)
+![P2 Connector Board BOTTOM](DacBuss_Simulator_DBS_Portfolio/P2_ConnectorBoard_BOTTOM.png)
 
 
