@@ -1,19 +1,19 @@
 # DACBUS Tester
 
-Hardware/software test system for synchronous and analog DACBUS backplane I/O used in
-military aircraft simulators and avionics systems.
+Hardware testing system for synchronous, analog and I/O peripherals of the DACBUS backplane, 
+used in military aircraft simulators and other avionics systems.
 
 > Note: This repository contains a **sanitized, non-proprietary representation** of the
-> system architecture and software tooling. No controlled or customer-specific information
-> is included.
+> system architecture and software tooling. No controlled or employer-specific information
+> is included that was not previously approved by Cymstar.
 
 ---
 
 ## Overview
 
-DACBUS Tester is an integrated test platform designed to validate and diagnose
-DACBUS-connected peripheral modules interfacing with a central controller over a
-backplane-style bus.
+DACBUS Tester is a test platform designed to simulate the controller and DACBUS in order to
+test and diagnose synchronous, analog and digital I/O computer cards that would otherwish be 
+connected to the DACBUS backplane.
 
 The system was developed to support:
 - Hardware verification
@@ -36,13 +36,27 @@ In typical deployments, the DACBUS functions as a backplane bus connecting:
 The tester acts as an external diagnostic interface capable of stimulating,
 monitoring, and validating bus-connected peripherals.
 
+All schematics shown were made in Eagle PCB for two reasons.
+- Eagle PCB is free which drastically cut costs for this project
+- AutoCAD Electrical does not produce PCBs.
+
 ---
 
 ## Architecture (High Level)
 
-The system consists of:
-- Custom test hardware interfacing with DACBUS signals
-- Signal conditioning and protection circuitry
-- A host-controlled software layer for test execution and data capture
+Data flow is always with respect to the C# DACBUS Tester software, 
+which is simulating the HOST computer of the aircraft simulator system.
+Signals are first initiated by the softwars output to the card. The
+card, then, reacts and sends its signals to the softwares inputs. The
+communication is I2C and utilizes I2C multiplexing ICs. Each card tested
+has two R636 Vector connectors (72-pin). Each connector can accept I/O or analog 
+on specific pins, depending on the card tested. Much consideration was taken
+to account for this circuitry setup. AC and DC filtration was needed to anticipate
+the signals for each input to the software.
+
+Below is a schematic of P1 connector board
+
+
+![DACBUS](DacBuss Simulator_DBS_Portfolio/P1_ConnectorBoard.sch)
 
 
