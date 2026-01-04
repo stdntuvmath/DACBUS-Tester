@@ -4,8 +4,8 @@ Hardware testing system for synchronous, analog and I/O peripherals of the DACBU
 used in military aircraft simulators and other avionics systems.
 
 > Note: This repository contains a **sanitized, non-proprietary representation** of the
-> system architecture and software tooling. No controlled or employer-specific information
-> is included that was not previously approved by Cymstar.
+> system architecture and software tooling. No controlled or non-approved, employer-specific information
+> is included.
 
 ---
 
