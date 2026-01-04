@@ -57,6 +57,6 @@ the signals for each input to the software.
 Below is a schematic of P1 connector board
 
 
-[DACBUS](DacBuss Simulator_DBS_Portfolio/P1_ConnectorBoard.pdf)
+[DACBUS](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard.pdf)
 
 
