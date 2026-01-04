@@ -59,7 +59,7 @@ Below is a schematic of P1 connector board and the fully articulated PCB.
 
 [P1 Connector Board](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard.pdf)
 ![P1 Connector Board TOP](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard_TOP.png)
-![P1 Connector Board BOTTOM](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard_TOP.png)
+![P1 Connector Board BOTTOM](DacBuss_Simulator_DBS_Portfolio/P1_ConnectorBoard_BOTTOM.png)
 
 
 
