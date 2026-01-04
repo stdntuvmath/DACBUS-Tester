@@ -231,6 +231,8 @@ namespace DACBUS_Tester
 
             //load C pins into the address labels
             cPinAddress = textBox2.Text.ToCharArray();
+            //load data pins
+            dataPinAddress = textBox3.Text.ToCharArray();
 
             if (cPinAddress.Length > 16)
             {
@@ -242,6 +244,12 @@ namespace DACBUS_Tester
             {
                 int tooLittle = 16 - cPinAddress.Length;
                 MessageBox.Show("You are missing " + tooLittle.ToString() + " digits. The C pin address must be 16 digits in length (2 bytes). Please provide 2 bytes of data.", "Not Enough Digits in C pin address word", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (dataPinAddress.Length < 16)
+            {
+                int tooLittle = 16 - dataPinAddress.Length;
+                MessageBox.Show("You are missing " + tooLittle.ToString() + " digits. The data pin address must be at least 16 digits in length (2 bytes). Please provide 2 bytes of data.", "Not Enough Digits in data pin address word", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             //load cp pins
@@ -263,8 +271,7 @@ namespace DACBUS_Tester
             label24.Text = "Cp15 = " + cPinAddress[15];
 
 
-            //load data pins
-            dataPinAddress = textBox3.Text.ToCharArray();
+            
 
             label43.Text = "D00 = " + dataPinAddress[0];
             label44.Text = "D01 = " + dataPinAddress[1];
@@ -282,22 +289,28 @@ namespace DACBUS_Tester
             label56.Text = "D13 = " + dataPinAddress[13];
             label57.Text = "D14 = " + dataPinAddress[14];
             label58.Text = "D15 = " + dataPinAddress[15];
-            label59.Text = "D16 = " + dataPinAddress[16];
-            label60.Text = "D17 = " + dataPinAddress[17];
-            label61.Text = "D18 = " + dataPinAddress[18];
-            label62.Text = "D19 = " + dataPinAddress[19];
-            label63.Text = "D20 = " + dataPinAddress[20];
-            label64.Text = "D21 = " + dataPinAddress[21];
-            label65.Text = "D22 = " + dataPinAddress[22];
-            label66.Text = "D23 = " + dataPinAddress[23];
-            label67.Text = "D24 = " + dataPinAddress[24];
-            label68.Text = "D25 = " + dataPinAddress[25];
-            label69.Text = "D26 = " + dataPinAddress[26];
-            label70.Text = "D27 = " + dataPinAddress[27];
-            label71.Text = "D28 = " + dataPinAddress[28];
-            label72.Text = "D29 = " + dataPinAddress[29];
-            label73.Text = "D30 = " + dataPinAddress[30];
-            label74.Text = "D31 = " + dataPinAddress[31];
+
+            if (dataPinAddress.Length > 16)
+            {
+                label59.Text = "D16 = " + dataPinAddress[16];
+                label60.Text = "D17 = " + dataPinAddress[17];
+                label61.Text = "D18 = " + dataPinAddress[18];
+                label62.Text = "D19 = " + dataPinAddress[19];
+                label63.Text = "D20 = " + dataPinAddress[20];
+                label64.Text = "D21 = " + dataPinAddress[21];
+                label65.Text = "D22 = " + dataPinAddress[22];
+                label66.Text = "D23 = " + dataPinAddress[23];
+                label67.Text = "D24 = " + dataPinAddress[24];
+                label68.Text = "D25 = " + dataPinAddress[25];
+                label69.Text = "D26 = " + dataPinAddress[26];
+                label70.Text = "D27 = " + dataPinAddress[27];
+                label71.Text = "D28 = " + dataPinAddress[28];
+                label72.Text = "D29 = " + dataPinAddress[29];
+                label73.Text = "D30 = " + dataPinAddress[30];
+                label74.Text = "D31 = " + dataPinAddress[31];
+            }
+
+            
 
         }
 
