@@ -1,0 +1,32 @@
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\DACBUS Tester.exe.config
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\DACBUS Tester.exe
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\DACBUS Tester.pdb
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.csprojAssemblyReference.cache
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS_Tester.Form1.resources
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS_Tester.Properties.Resources.resources
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.csproj.GenerateResource.cache
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.csproj.CoreCompileInputs.cache
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.exe
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.pdb
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS_Tester.Form2.resources
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Asio.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Core.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Midi.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Wasapi.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.WinForms.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.WinMM.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\System.Security.AccessControl.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Asio.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Core.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Midi.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.Wasapi.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.WinForms.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\NAudio.WinMM.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\System.Security.AccessControl.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\stdnt\Desktop\Local Work Folder\Test Fixture Data Manager\C# code\DACBUS Tester\DACBUS Tester\obj\Debug\DACBUS Tester.csproj.CopyComplete
