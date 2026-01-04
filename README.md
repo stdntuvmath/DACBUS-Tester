@@ -73,13 +73,13 @@ Below are schematics of both P1 and P2 connector boards and their fully articula
 
 The software requires the user to select a board to test.
 
-![Card Selection](DacBuss_Simulator_DBS_Portfolio/card selection.JPG)
+![Card Selection](DacBuss_Simulator_DBS_Portfolio/cardSelection.JPG)
 
 In the picture below, a syncronous output card is selected which outputs analog data to the 
 software via Arduino analog input pins. The software then feeds the card digital data and selects
 a channel on the SOP card, highlighting the output in blue.
 
-![Card Selection](DacBuss_Simulator_DBS_Portfolio/Input 1.JPG)
+![Card Selection](DacBuss_Simulator_DBS_Portfolio/Input1.JPG)
 
 
 
